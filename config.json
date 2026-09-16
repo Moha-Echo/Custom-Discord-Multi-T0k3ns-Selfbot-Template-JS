@@ -1,0 +1,20 @@
+{
+  "prefix": {
+    "userId": "&",
+    "userId2": "+"
+  },
+  "debug": true,
+  "defaultPrefix": "&",
+  "showFullTokens": false,
+  "tokens": [
+    {
+        "token": "token"
+    },
+    {
+        "token": "second acc token etc.."
+    },
+    {
+        "invalid": "this token no longer works bcz its in the invalid"
+    }
+  ]
+}
