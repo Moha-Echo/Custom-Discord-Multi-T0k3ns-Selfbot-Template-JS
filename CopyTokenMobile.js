@@ -1,0 +1,1 @@
+javascript:(function(){var i=document.createElement('iframe');document.body.appendChild(i);var t=i.contentWindow.localStorage.token;try{var p=JSON.parse(t);t=typeof p=='string'?p:p.token||JSON.stringify(p)}catch(e){}navigator.clipboard.writeText(t).then(function(){alert('Votre token a été copié')}).catch(function(err){alert('Impossible de copier le token: '+err)})})()
